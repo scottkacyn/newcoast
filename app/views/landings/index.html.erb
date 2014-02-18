@@ -1,2 +1,135 @@
-<h1>Landings#index</h1>
-<p>Find me in app/views/landings/index.html.erb</p>
+<header>
+   <div class="imageFull">
+      <a href="#" class="logo">&amp;Agency</a>
+      <nav>
+         <ul>
+            <li><a href="#works"><i>our</i> work</a>
+            <li><a href="#services"><i>our</i> services</a>
+            <li><a href="#team"><i>the</i> team</a>
+            <li><a href="#contact"><i>say</i> hello</a>
+         </ul>
+      </nav>
+   </div>
+</header>
+<section id="tagline">
+   <div class="container">
+      <h1>We are the best choice to build your online brand.</h1>
+      <button>Success stories</button>
+   </div> <!-- end container -->
+</section>
+<section id="works">
+   <div class="container">
+      <h2>Our work</h2>
+      <ul class="gallery anim1">
+         <li><a href="#"><%= image_tag "works/work1.jpg", :alt => "Work" %></a></li>
+         <li><a href="#"><%= image_tag "works/work2.jpg", :alt => "Work" %></a></li>
+         <li><a href="#"><%= image_tag "works/work3.jpg", :alt => "Work" %></a></li>
+         <li><a href="#"><%= image_tag "works/work4.jpg", :alt => "Work" %></a></li>
+         <li><a href="#"><%= image_tag "works/work5.jpg", :alt => "Work" %></a></li>
+         <li><a href="#"><%= image_tag "works/work6.jpg", :alt => "Work" %></a></li>
+         <li><a href="#"><%= image_tag "works/work7.jpg", :alt => "Work" %></a></li>
+         <li><a href="#"><%= image_tag "works/work8.jpg", :alt => "Work" %></a></li>
+      </ul>
+   </div> <!-- end container -->
+</section>
+<section id="services">
+   <div class="container">
+      <h2>Our services</h2>
+      <ul class="gallery2">
+         <li>
+            <%= image_tag "icon1.svg", :alt => "Professional Approach" %>
+            <h3>Professional approach</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Delectus, maxime aut quis.
+            Laborum, ex, alias, consequatur maiores aut veniam sint facilis tempore dolorum nostrum consequuntur tenetur a cupiditate nesciunt
+            adipisci?</p>
+         </li>
+         <li>
+            <%= image_tag "icon2.svg", :alt => "Responsive Design" %>
+            <h3>Responsive design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Delectus, maxime aut quis.
+            Laborum, ex, alias, consequatur maiores aut veniam sint facilis tempore dolorum nostrum consequuntur tenetur a cupiditate nesciunt
+            adipisci?</p>
+         </li>
+         <li>
+            <%= image_tag "icon3.svg", :alt => "Award winning work" %>
+            <h3>Award winning work</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Delectus, maxime aut quis.
+            Laborum, ex, alias, consequatur maiores aut veniam sint facilis tempore dolorum nostrum consequuntur tenetur a cupiditate nesciunt
+            adipisci?</p>
+         </li>
+         <li>
+            <%= image_tag "icon4.svg", :alt => "Website optimization" %>
+            <h3>Website optimization</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Delectus, maxime aut quis.
+            Laborum, ex, alias, consequatur maiores aut veniam sint facilis tempore dolorum nostrum consequuntur tenetur a cupiditate nesciunt
+            adipisci?</p>
+         </li>
+      </ul>
+   </div> <!-- end container -->
+</section>
+<section id="team">
+   <div class="container">
+      <h2>The team</h2>
+      <ul class="gallery anim2">
+         <li>
+         <%= image_tag "team/nick.png", :alt => "Nick Cromydas" %>
+         <i>Nick Cromydas<span>Chief Executive Officer</span><div class="divide"></div></i>
+         </li>
+         <li>
+         <%= image_tag "team/scott.png", :alt => "Scott Kacyn" %>
+         <i>Scott Kacyn<span>Chief Technology Officer</span><div class="divide"></div></i>
+         </li>
+         <li>
+         <%= image_tag "team/team3.jpg", :alt => "TBD" %>
+         <i>John Smith<span>Web Designer</span><div class="divide"></div></i>
+         </li>
+         <li>
+         <%= image_tag "team/team4.jpg", :alt => "TBD" %>
+         <i>John Smith<span>Web Designer</span><div class="divide"></div></i>
+         </li>
+      </ul>
+   </div> <!-- end container -->
+</section>
+<section id="contact">
+   <div class="container">
+      <h2>Say Hello!</h2>
+      <img src="" alt="">
+      <form>
+         <p>
+         <label for="name">Name</label>
+         <input type="text" id="name" name="name">
+         </p>
+         <p>
+         <label for="email">E-mail</label>
+         <input type="email" id="email" name="email">
+         </p>
+         <p>
+         <label for="message">Message</label>
+         <textarea name="message" id="message"></textarea>
+         </p>
+         <p>
+         <input type="submit" value="send">
+         </p>
+      </form>
+   </div> <!-- end container -->
+</section>
+<a href="#" class="back-top">Back to top</a>
+<footer>
+   <div class="container">
+      <div class="logoSmall">
+         <div class="logoSmall"></div>
+         <span>&copy; My Website</span>
+      </div>
+      <div class="socials">
+         <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Dribbble</a></li>
+         </ul>
+      </div>
+   </div> <!-- end container -->
+</footer>
