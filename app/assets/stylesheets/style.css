@@ -629,7 +629,7 @@ section {
       margin-right: 0; } }
 @media only screen and (min-width: 64.01em) {
   .gallery li {
-    width: 23.632813%;
+    width: 30.632813%;
     margin: 0 1.822916% 1.822916% 0; }
     .gallery li:nth-child(2n) {
       margin-right: 1.822916%; }
