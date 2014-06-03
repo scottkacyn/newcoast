@@ -10,9 +10,11 @@
       <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
       <%= csrf_meta_tags %>
 
-      <!-- Load remote CSS -->
+      <!-- Load remote CSS and fonts -->
       <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Oswald' rel='stylesheet' type='text/css'>
-
+      <script type="text/javascript" src="//use.typekit.net/zbw5avx.js"></script>
+      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+      
    </head>
    <body class="third-color">
       <%= yield %>
