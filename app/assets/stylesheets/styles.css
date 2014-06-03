@@ -1,0 +1,350 @@
+/* TABLE OF CONTENTS
+#Reset & Basics
+#Typography
+#Links
+*/
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Begin Template Styles
+================================================== */
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	background: #fff;
+	font: 14px/21px 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+.copyright {font-size: 12px; margin-top: 14px;}
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.highlight{color:#e74c3c;}
+
+
+/* #Links
+================================================== */
+a, a:visited { color: #333; text-decoration:none; outline: 0; }
+a:hover, a:focus { color: #2c3e50; }
+p a, p a:visited { line-height: inherit; }
+
+
+/* #Buttons
+================================================== */
+.btn, a.btn {
+  border: none;
+  background: #e74c3c;
+  color: #fff;
+  font-size: 17px;
+  padding: 9px 28px 10px 28px;
+  line-height: 22px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 21px 0;
+}
+
+
+/* #Colors
+================================================== */
+.primary-color{color:#e74c3c;}
+.secondary-color{color:#2c3e50;}
+.third-color{color: #7f8c8d;}
+
+
+/* #Lists
+================================================== */
+ul, ol { margin-bottom: 20px; }
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 6px; }
+li { line-height: 18px; margin-bottom: 12px; }
+ul.large li { line-height: 21px; }
+li p { line-height: 21px; }
+
+/* #Images
+================================================== */
+
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto; 
+}
+
+/* #Header
+================================================== */
+.main-header{padding: 28px 0;}
+.logo { font-size: 35px;}
+
+nav.main-nav ul {float: right; margin-top: 7px;}
+nav.main-nav ul li {
+	float: left; 
+	margin: 0 7px;
+	text-transform: uppercase;
+}
+.header-banner{
+	width:100%;
+	height: 650px;
+	padding: 98px 0 0 0;
+	background: url(http://placehold.it/1730x1155) fixed;
+	background-size: cover;
+	background-position: 100% top;
+	background-color: #FFD600;
+}
+.home-text-wrapper {
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+}
+.home-text-wrapper h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 77px; 
+	line-height: 84px;
+	padding: 0;
+	margin: 0;
+}
+.home-text-wrapper h2{ 
+	font-family: 'Lato', sans-serif;
+	font-size: 21px; 
+	padding: 0;
+	margin: 0;
+	text-transform: none;
+}
+
+/* --- Top Banner Slider --- */
+
+#home-slider{
+	background: #e74c3c; 
+	background: rgba(231, 76, 60, .85);
+	position: relative;
+	padding: 56px 0;
+	margin-top: 56px;
+}
+.slider-borders{
+	border-left:20px solid #fff;
+	border-right:20px solid #fff;
+	position: absolute;
+	left: 76px;
+	top: 35px;
+	width: 80%;
+	height:165px;
+}
+.flex-viewport{height: 125px !important;}
+
+li.home-slide {
+	margin: 0; 
+	padding: 0; 
+	line-height: 120px;
+	height: 280px; 
+	font-family: 'Oswald', sans-serif;
+	font-size:140px;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+}
+.flex-control-paging li a:hover { 
+	background: #7f8c8d !important; 
+	background: rgba(127, 140, 141, .85) !important; 
+}
+.flex-control-paging li a.flex-active { 
+	background: #e74c3c !important; 
+	background: rgba(231, 76, 60, .85) !important; 
+}
+
+/* #Page Sections
+================================================== */
+.page {text-align: center; padding: 42px 0px;}
+
+.page h1{
+	background: #e74c3c;
+	padding: 17px 35px 0 35px;
+	margin:0;
+	display: inline-block;
+	color: #fff;
+	font-size: 35px;
+	height: 56px;
+}
+.sub-page{padding: 42px 0;}
+.title-borders{
+	border-left: 7px solid #e74c3c;
+	border-right: 7px solid #e74c3c;
+	padding: 0 10px;
+	margin:0 0 35px 0;
+	display: inline-block;
+	height: 56px;
+}
+.subtitle {
+	font-size: 28px;
+	line-height: 35px;
+	width: 75%;
+	margin:0 auto;
+}
+.subtitle2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #e74c3c;
+	line-height: 35px;
+	width: 75%;
+	margin:0 auto;
+	margin-bottom: 35px;
+}
+.fullwidth{
+	width: 100%;
+	background: #ecf0f1;
+	text-align: center;
+}
+.fullwidth h2 {
+	color: #2c3e50;
+	font-size: 21px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: none;
+}
+.fullwidth h3 {
+	color: #2c3e50;
+	font-size: 21px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.icon-box {
+	background: #e74c3c;
+	display: inline-block !important;
+	padding:35px 56px; 
+	border-radius: 3px;
+	position: relative;
+	margin-bottom: 35px;
+}
+.icon-box:after {
+	content: '';
+	position: absolute;
+	border: 21px solid #e74c3c;
+	border-bottom: 0px solid transparent !important;
+	border-right: 21px solid transparent !important;
+	border-left: 21px solid transparent !important;
+	width: 0;
+	height: 0;
+	left: 50%;
+	bottom: -15px;
+	margin-left: -20px;
+}
+.about-text p{
+	width: 75%;
+	margin:0 auto;
+}
+.icon-services-circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	background: #e74c3c;
+	display: inline-block !important;
+	padding:42px; 
+	position: relative;
+	margin-bottom: 35px;
+}
+
+/* #Work (Portfolio) Section
+================================================== */
+.project-cats li {
+	display: inline;
+	color:#2c3e50;
+	font-size: 21px;
+	padding: 14px;
+}
+
+.project-thumbs {margin: 35px 0;}
+
+/* #Parallax Banners
+================================================== */
+.parallax {
+	z-index:0;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+}
+.parallax-content {
+	text-align: center;
+	padding: 200px 0 0 0;
+}
+.parallax-content h1{
+	color:#f05135;
+	font-size: 42px;
+	line-height: 49px;
+	padding: 7px 0;
+	border-top:1px solid #bdc3c7;
+	border-bottom:1px solid #bdc3c7;
+	display: inline-block;
+}
+.parallax-content p{
+	color:#fff;
+	font-size: 28px;
+	line-height: 35px;
+	width: 75%;
+	margin:0 auto;
+}
+.banner-overlay {
+	background: url(../images/banners/overlay-pattern.png);
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	overflow:hidden;
+}
+.parallax-banner-1 {background-image: url(http://placehold.it/1730x900);}
+.parallax-banner-2 {background-image: url(http://placehold.it/1730x900);}
+.parallax-banner-3 {background-image: url(http://placehold.it/1730x900);}
+.parallax-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-position: top center;
+}

@@ -1,125 +1,289 @@
-<header>
-   <div class="imageFull">
-      <a href="#" class="logo">New Coast Ventures</a>
-      <nav>
-         <ul>
-            <li><a href="#works"><i>our</i> work</a>
-            <li><a href="#services"><i>our</i> services</a>
-            <li><a href="#team"><i>the</i> team</a>
-            <li><a href="#contact"><i>say</i> hello</a>
-         </ul>
-      </nav>
-   </div>
-</header>
-<section id="tagline">
-   <div class="container">
-      <h1>We help you bring your ideas to life. We are a full-service web and mobile
-      development shop based in Chicago, IL.</h1>
-   </div>
-</section>
-<section id="works">
-   <div class="container">
-      <h2>Our work</h2>
-      <ul class="gallery anim1">
-         <li><a href="http://www.tapfit.co" target="_blank"><%= image_tag "works/tapfit.png", :alt => "TapFit" %></a></li>
-         <li><a href="http://www.prelang.com" target="_blank"><%= image_tag "works/prelang.png", :alt => "Prelang" %></a></li>
-         <li><a href="https://itunes.apple.com/us/app/motlee/id598056592?mt=8" target="_blank"><%= image_tag "works/motlee.png", :alt => "Motlee" %></a></li>
-      </ul>
-   </div>
-</section>
-<section id="services">
-   <div class="container">
-      <h2>Our services</h2>
-      <ul class="gallery2">
-         <li>
-            <%= image_tag "icon1.svg", :alt => "Professional Approach" %>
-            <h3>Product Development</h3>
-            <p>We can help you tackle any project, big or small.
-            Our expertise is in mobile and web development, but
-            we also provide backend development, design and
-            branding, integrations, and more.</p>
-         </li>
-         <li>
-            <%= image_tag "icon2.svg", :alt => "Responsive Design" %>
-            <h3>Responsive design</h3>
-            <p>We are experts in creating responsive web
-            applications that look great on any device - from
-            laptops to tablets to mobile phones. Our team is
-            always on the cutting edge with new technology.</p>
-         </li>
-         <li>
-            <%= image_tag "icon3.svg", :alt => "Award winning work" %>
-            <h3>World Class Service</h3>
-            <p>Our products have been finalists in tech competitions and
-            accepted into top incubator programs. We treat every project
-            as if we were an extension of your team; we only succeed if you do.</p>
-         </li>
-         <li>
-            <%= image_tag "icon4.svg", :alt => "Website optimization" %>
-            <h3>Website optimization</h3>
-            <p>We have years of experience in website optimization;
-             including user interface re-design, user experience
-             consulting, search engine optimization, and search
-             engine marketing.</p>
-         </li>
-      </ul>
-   </div> <!-- end container -->
-</section>
-<section id="team">
-   <div class="container">
-      <h2>The team</h2>
-      <ul class="gallery anim2">
-         <li>
-         <%= image_tag "team/nick.png", :alt => "Nick Cromydas" %>
-         <i>Nick Cromydas<span>Chief Executive Officer</span><div class="divide"></div></i>
-         </li>
-         <li>
-         <%= image_tag "team/scott.png", :alt => "Scott Kacyn" %>
-         <i>Scott Kacyn<span>Chief Technology Officer</span><div class="divide"></div></i>
-         </li>
-         <li>
-         <%= image_tag "team/erik.png", :alt => "TBD" %>
-         <i>Erik Nomitch<span>Tech Ninja</span><div class="divide"></div></i>
-         </li>
-      </ul>
-   </div> <!-- end container -->
-</section>
-<section id="contact">
-   <div class="container">
-      <h2>Say Hello!</h2>
-      <img src="" alt="">
-      <form>
-         <p>
-         <label for="name">Name</label>
-         <input type="text" id="name" name="name">
-         </p>
-         <p>
-         <label for="email">E-mail</label>
-         <input type="email" id="email" name="email">
-         </p>
-         <p>
-         <label for="message">Message</label>
-         <textarea name="message" id="message"></textarea>
-         </p>
-         <p>
-         <input type="submit" value="send">
-         </p>
-      </form>
-   </div> <!-- end container -->
-</section>
-<a href="#" class="back-top">Back to top</a>
-<footer>
-   <div class="container">
-      <div class="logoSmall">
-         <div class="logoSmall"></div>
-         <span>&copy; My Website</span>
-      </div>
-      <div class="socials">
-         <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Dribbble</a></li>
-         </ul>
-      </div>
-   </div> <!-- end container -->
-</footer>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Stranos - One Page</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+  	<link href='http://fonts.googleapis.com/css?family=Lato:400,700|Oswald' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+
+	<!--[if lt IE 8]>
+	  	<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body class="third-color">
+
+
+	<!-- Header Area
+	================================================== -->
+
+	<div class="container main-header"><!-- header container-->
+
+		<!-- Site Logo -->
+		<div class="logo secondary-color five columns"><i class="icon-asterisk primary-color"></i> Strano</div>
+
+		<!-- Main Navigation-->
+		<nav class="main-nav eleven columns">
+			<ul>
+				<li><a href="#about" class="third-color">About</a></li>
+				<li><a href="#services" class="third-color">Services</a></li>
+				<li><a href="#team" class="third-color">Team</a></li>
+				<li><a href="#work" class="third-color">Work</a></li>
+				<li><a href="#contact" class="third-color">Contact</a></li>
+			</ul>
+		</nav>
+
+	</div><!-- close header container -->
+
+	<div class="container header-banner"><!-- main header banner -->
+
+		<div class="home-text-wrapper">
+			<h1 class="secondary-color">WE ARE STRANO</h1>
+			<h2 class="primary-color">The creative minds behind popular design</h2>	
+
+			<!-- Flexslider in main banner-->
+				<div id="home-slider" class="flexslider">
+				<div class="slider-borders"></div>
+	                <ul class="slides">
+		                <li class="home-slide">Genius</li>
+		                <li class="home-slide">Creative</li>
+		                <li class="home-slide">Stylish</li>
+		                <li class="home-slide">Connected</li>
+		                <li class="home-slide">Coded</li>
+	                </ul>
+	            </div><!-- end flexslider -->
+
+		</div><!-- end home text wrapper -->
+	</div><!-- close main header banner -->
+
+
+	<!-- About Us Section
+	================================================== -->
+	<div class="container page about-us" id="about">
+		<div class="title-borders"><h1>About Strano</h1></div>
+		<div class="subtitle">We are a <span class="highlight">creative agency</span> located in San Francisco, California. We’ve won a <span class="highlight">ton of awards</span> and have been featured in all of the magazines.</div>
+	</div><!-- close about us header -->
+
+	<div class="fullwidth">
+		<div class="container sub-page">
+			<h2>Here’s where we excel.</h2>
+			<div class="subtitle2">Design that withstands the test of time</div>
+
+			<div class="one-third column about-text">
+				<div class="icon-box"><img src="images/icons/icon-megaphone.png" alt="Creativity" /></div>
+				<h3>Innovation</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. Quisque facilisis dolor et elit semper mattis. Vivamus molestie consectetur sem eu luctus. Duis placerat molestie tellus, venenatis blandit eros.</p>
+			</div>
+
+			<div class="one-third column about-text">
+				<div class="icon-box"><img src="images/icons/icon-cog.png" alt="Creativity" /></div>
+				<h3>Creativity</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. Quisque facilisis dolor et elit semper mattis. Vivamus molestie consectetur sem eu luctus. Duis placerat molestie tellus, venenatis blandit eros.</p>
+			</div>
+
+			<div class="one-third column about-text">
+				<div class="icon-box"><img src="images/icons/icon-bulb.png" alt="Creativity" /></div>
+				<h3>Solutions</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. Quisque facilisis dolor et elit semper mattis. Vivamus molestie consectetur sem eu luctus. Duis placerat molestie tellus, venenatis blandit eros.</p>
+			</div>
+		</div><!-- close container -->
+	</div><!-- close about us fullwidth -->
+
+	<!-- Parallax Section 1
+	================================================== -->
+	<div id="parallax-1" class="parallax">
+		<div class="parallax-banner-1 parallax-background"></div><!-- parallax bg -->
+		<div class="banner-overlay"></div><!-- overlay pattern -->
+		<div class="container parallax-content">
+			<h1>Our philosophy is...</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. </p>
+		</div>
+	</div><!-- close parallax banner 1-->
+
+	<!-- Our Team Section
+	================================================== -->
+	<div class="container page our-team" id="team">
+		<div class="title-borders"><h1>Our Team</h1></div>
+		<div class="subtitle">We believe in a <span class="highlight">diverse</span> range of personel to bring creative skills, thoughts, and <span class="highlight">ideas</span> to the table.</div>
+	</div><!-- close our team head section -->
+
+	<div class="fullwidth">
+		<div class="container sub-page">
+			<ul>
+				<li class="four columns"><img src="http://placehold.it/420x370" alt="Our Team" class="scale-with-grid" /></li>
+				<li class="four columns"><img src="http://placehold.it/420x370" alt="Our Team" class="scale-with-grid" /></li>
+				<li class="four columns"><img src="http://placehold.it/420x370" alt="Our Team" class="scale-with-grid" /></li>
+				<li class="four columns"><img src="http://placehold.it/420x370" alt="Our Team" class="scale-with-grid" /></li>
+			</ul>
+		</div><!-- close container -->
+	</div><!-- close our team fullwidth section -->
+
+	<!-- Parallax Section 2
+	================================================== -->
+	<div id="parallax-2" class="parallax">
+		<div class="parallax-banner-2 parallax-background"></div><!-- parallax bg -->
+		<div class="banner-overlay"></div><!-- overlay pattern -->
+		<div class="container parallax-content">
+			<h1>Our Mission is...</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. </p>
+		</div>
+	</div><!-- close parallax section 2-->
+
+	<!-- Services Section
+	================================================== -->
+	<div class="container page services" id="services">
+		<div class="title-borders"><h1>Our Services</h1></div>
+		<div class="subtitle">We are a <span class="highlight">creative agency</span> located in San Francisco, California. We’ve won a <span class="highlight">ton of awards</span> and have been featured in all of the magazines.</div>
+	</div><!-- close services header -->
+
+	<div class="fullwidth">
+		<div class="container sub-page">
+			<div class="one-third column about-text">
+				<div class="icon-services-circle"><img src="images/icons/icon-megaphone.png" alt="Creativity" /></div>
+				<h3>Web Design</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. Quisque facilisis dolor et elit semper mattis. Vivamus molestie consectetur sem eu luctus. Duis placerat molestie tellus, venenatis blandit eros.</p>
+			</div>
+
+			<div class="one-third column about-text">
+				<div class="icon-services-circle"><img src="images/icons/icon-cog.png" alt="Creativity" /></div>
+				<h3>Mobile Apps</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. Quisque facilisis dolor et elit semper mattis. Vivamus molestie consectetur sem eu luctus. Duis placerat molestie tellus, venenatis blandit eros.</p>
+			</div>
+
+			<div class="one-third column about-text">
+				<div class="icon-services-circle"><img src="images/icons/icon-bulb.png" alt="Creativity" /></div>
+				<h3>Branding</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. Quisque facilisis dolor et elit semper mattis. Vivamus molestie consectetur sem eu luctus. Duis placerat molestie tellus, venenatis blandit eros.</p>
+			</div>
+		</div><!-- close container -->
+	</div><!-- close services fullwidth -->
+
+	<div class="container page">
+		<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. </div>
+		<a href="#" class="btn">Contact Us</a>
+	</div><!-- close services header -->
+
+	<!-- Parallax Section 3
+	================================================== -->
+	<div id="parallax-3" class="parallax">
+		<div class="parallax-banner-3 parallax-background"></div><!-- parallax bg -->
+		<div class="banner-overlay"></div><!-- overlay pattern -->
+		<div class="container parallax-content">
+			<h1>We provide our clients with.</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec libero molestie ipsum dignissim condimentum. Donec at ligula elit. Nunc nec ipsum lectus. </p>
+		</div>
+	</div><!-- close parallax section 3-->
+
+	<!-- Portfolio Section
+	================================================== -->
+	<div class="container page work" id="work">
+
+		<div class="title-borders"><h1>Recent Work</h1></div>
+		<div class="subtitle">We believe our work <span class="highlight">speaks</span> for itself. Browse our most recent projects below.</div>
+
+		<ul class="project-thumbs"><!-- Begin work thumbs -->
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 1" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 2" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 3" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 4" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 5" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 6" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 7" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 8" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 9" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 10" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 11" class="scale-with-grid" /></a>
+			</li>
+			<li class="four columns">
+				<a href="http://placehold.it/800x600" rel="prettyPhoto"><img src="http://placehold.it/800x600" alt="Project 12" class="scale-with-grid" /></a>
+			</li>
+		</ul><!-- end work thumbs -->
+
+	</div><!-- close work section -->
+
+	<!-- Contact Section
+	================================================== -->
+	<div class="container contact fullwidth sub-page" id="contact">
+		<strong>Connect with us:</strong> <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Behance</a> <br />
+		<div class="copyright">Copyright &copy; 2013 Strano. All rights reserved.</div>
+	</div><!-- close work section -->
+
+<!-- Javascript Plugins
+================================================== -->
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+ <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+ <script type="text/javascript" src="js/jquery.smooth-scroll.js"></script>
+ <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+ <script type="text/javascript" src="js/main.js"></script>  
+
+ <script> 
+    $(document).ready(function() {
+    	////// Enable Page Scrolling
+    	$('nav.main-nav li a').smoothScroll();
+
+    	////// Enable PrettyPhoto
+    	$("a[rel^='prettyPhoto']").prettyPhoto({
+            social_tools:false,
+            deeplinking: false
+        });
+    });
+ </script>  
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
