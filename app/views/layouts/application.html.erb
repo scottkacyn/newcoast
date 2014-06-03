@@ -4,11 +4,31 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>New Coast Ventures</title>
+
+      <!-- Load basic CSS and JS -->
       <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
       <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
       <%= csrf_meta_tags %>
+
+      <!-- Load remote CSS -->
+      <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Oswald' rel='stylesheet' type='text/css'>
+
    </head>
-   <body>
+   <body class="third-color">
       <%= yield %>
    </body>
+
+   <script> 
+      $(document).ready(function() {
+         ////// Enable Page Scrolling
+         $('nav.main-nav li a').smoothScroll();
+
+         ////// Enable PrettyPhoto
+         $("a[rel^='prettyPhoto']").prettyPhoto({
+               social_tools:false,
+               deeplinking: false
+         });
+      });
+   </script>  
+
 </html>

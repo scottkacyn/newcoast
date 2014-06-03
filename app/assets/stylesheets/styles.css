@@ -110,13 +110,13 @@ li p { line-height: 21px; }
 
 img.scale-with-grid {
 	max-width: 100%;
-	height: auto; 
+	height: auto;	
 }
 
 /* #Header
 ================================================== */
-.main-header{padding: 28px 0;}
-.logo { font-size: 35px;}
+.main-header{padding: 44px 0 14px 0;}
+.logo { font-size: 30px; text-transform: uppercase;}
 
 nav.main-nav ul {float: right; margin-top: 7px;}
 nav.main-nav ul li {
@@ -128,20 +128,22 @@ nav.main-nav ul li {
 	width:100%;
 	height: 650px;
 	padding: 98px 0 0 0;
-	background: url(http://placehold.it/1730x1155) fixed;
+	background: url(banners/header.jpg) fixed;
 	background-size: cover;
 	background-position: 100% top;
 	background-color: #FFD600;
 }
 .home-text-wrapper {
 	width: 960px;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
+	padding: 15px 15px 25px 45px;
+	background: rgba(255,255,255,0.8);
 }
 .home-text-wrapper h1{
 	font-family: 'Lato', sans-serif;
-	font-size: 77px; 
-	line-height: 84px;
+	font-size: 47px; 
+	line-height: 64px;
 	padding: 0;
 	margin: 0;
 }
@@ -149,6 +151,7 @@ nav.main-nav ul li {
 	font-family: 'Lato', sans-serif;
 	font-size: 21px; 
 	padding: 0;
+	padding-left: 57px;
 	margin: 0;
 	text-transform: none;
 }
@@ -329,15 +332,15 @@ li.home-slide {
 	margin:0 auto;
 }
 .banner-overlay {
-	background: url(../images/banners/overlay-pattern.png);
+	background: url(banners/overlay-pattern.png);
 	width: 100%;
 	height: 600px;
 	position: absolute;
 	overflow:hidden;
 }
-.parallax-banner-1 {background-image: url(http://placehold.it/1730x900);}
-.parallax-banner-2 {background-image: url(http://placehold.it/1730x900);}
-.parallax-banner-3 {background-image: url(http://placehold.it/1730x900);}
+.parallax-banner-1 {background-image: url(banners/1.png);}
+.parallax-banner-2 {background-image: url(banners/2.png);}
+.parallax-banner-3 {background-image: url(banners/3.png);}
 .parallax-background {
 	position: absolute;
 	width: 100%;
