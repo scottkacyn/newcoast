@@ -144,9 +144,6 @@ nav.main-nav ul li a {
 	margin: 0 auto;
 	padding: 15px 15px 25px 45px;
 	background: rgba(255,255,255,0.8);
-	-ms-transform: skew(1deg,1deg); /* IE 9 */
-	-webkit-transform: skew(1deg,1deg); /* Chrome, Safari, Opera */
-	transform: skew(1deg,1deg);
 }
 .home-text-wrapper h1{
 	font-size: 50px; 
