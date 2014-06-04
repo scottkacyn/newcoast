@@ -135,9 +135,10 @@ nav.main-nav ul li a {
 	background: url(banners/header.jpg) fixed;
 	background-size: cover;
 	background-position: 100% top;
-	background-color: #FFD600;
+	background-color: #FAFAFA;
 }
 .home-text-wrapper {
+	z-index:1;
 	width: 960px;
 	text-align: left;
 	margin: 0 auto;
@@ -149,7 +150,7 @@ nav.main-nav ul li a {
 }
 .home-text-wrapper h1{
 	font-size: 50px; 
-	font-weight: 500;
+	font-weight: 900;
 	line-height: 64px;
 	padding: 0;
 	margin: 0;
@@ -313,6 +314,7 @@ nav.main-nav ul li a {
 	text-align: center !important;
 	padding: 0 !important;
 	margin: 20px;
+	overflow: hidden;
 }
 
 .work-pins li a {

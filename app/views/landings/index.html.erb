@@ -15,11 +15,11 @@
 </div><!-- close header container -->
 
 <div class="container header-banner"><!-- main header banner -->
-
 	<div class="home-text-wrapper">
 		<h1 class="secondary-color">Bring your ideas to life</h1>
-		<h2 class="primary-color">We provide innovation solutions for your product, business, or brand</h2>	
+		<h2 class="primary-color">We provide innovation solutions for your product, business, or brand</h2>
 	</div><!-- end home text wrapper -->
+	<div class="home-text-wrapper-border"></div>
 </div><!-- close main header banner -->
 
 
@@ -69,7 +69,6 @@
 				<li><a href="#">Specless</a></li>
 				<li><a href="#">Donde</a></li>
 				<li><a href="#">Prelang</a></li>
-				<li><a href="#">Ahalogy</a></li>
 				<li><a href="#">Learnmetrics</a></li>
 			</ul>
 		</li>
@@ -92,13 +91,32 @@
 
 <div class="fullwidth">
 	<div class="container page">
-		<ul>
-			<li class="four columns circle"><%= image_tag "team/scott.jpg", :alt => "Scott Kacyn", :class => "scale-with-grid" %></li>
-         <li class="four columns circle"><%= image_tag "team/nick.jpg", :alt => "Nick Cromydas", :class => "scale-with-grid" %></li>
-         <li class="four columns circle"><%= image_tag "team/steve.jpg", :alt => "Stephen Corby", :class => "scale-with-grid" %></li>
-         <li class="four columns circle"><%= image_tag "team/alex.jpg", :alt => "Alex Ross", :class => "scale-with-grid" %></li>
-         <li class="four columns circle"><%= image_tag "team/zo.jpg", :alt => "Alex Zotov", :class => "scale-with-grid" %></li>
-         <li class="four columns circle"><%= image_tag "team/zack.jpg", :alt => "Scott Kacyn", :class => "scale-with-grid" %></li>
+		<ul class="work-bucket-header">
+			<li class="four columns">
+				<h2>Team Members</h2>
+			</li>
+			<li class="twelve columns">
+				<p>These are the folks that started New Coast and run its daily operations. We're programmers, designers, analysts - and we all share an intense entrepreneurial spirit.</p>
+				<ul class="work-pins">
+					<li><%= image_tag "team/scott.jpg", :alt => "Scott Kacyn", :class => "scale-with-grid" %></li>
+					<li><%= image_tag "team/nick.jpg", :alt => "Nick Cromydas", :class => "scale-with-grid" %></li>
+					<li><%= image_tag "team/alex.jpg", :alt => "Alex Ross", :class => "scale-with-grid" %></li>
+					<li><%= image_tag "team/zo.jpg", :alt => "Alex Zotov", :class => "scale-with-grid" %></li>
+					<li><%= image_tag "team/zack.jpg", :alt => "Zack Martinsek", :class => "scale-with-grid" %></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="work-bucket-header">
+			<li class="four columns">
+				<h2>Community</h2>
+			</li>
+			<li class="twelve columns">
+				<p>In addition to our direct team, we work closely with a number of awesome entrepreneurs who make up our growing community. We teach and learn from one another regularly.</p>
+				<ul class="work-pins">
+					<li><%= image_tag "team/steve.jpg", :alt => "Stephen Corby", :class => "scale-with-grid" %></li>
+					<li><%= image_tag "team/erik.png", :alt => "Erik Nomitch", :class => "scale-with-grid" %></li>
+				</ul>
+			</li>
 		</ul>
 	</div><!-- close container -->
 </div><!-- close our team fullwidth section -->
@@ -122,6 +140,6 @@
 <!-- Contact Section
 ================================================== -->
 <div class="container contact fullwidth sub-page" id="contact">
-	<strong>Connect with us:</strong> <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Behance</a> <br />
+	<strong>Connect with us:</strong> <a href="https://www.facebook.com/newcoastventures">Facebook</a> | <a href="https://twitter.com/NCVentures">Twitter</a><br />
 	<div class="copyright">Copyright &copy; 2014 New Coast Ventures. All rights reserved.</div>
 </div><!-- close work section -->
