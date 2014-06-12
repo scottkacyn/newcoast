@@ -68,7 +68,7 @@ p a, p a:visited { line-height: inherit; }
 ================================================== */
 .btn, a.btn {
   border: none;
-  background: #e4ae18;
+  background: #F26C4F;
   color: #fff;
   font-size: 17px;
   font-weight: 900;
@@ -116,10 +116,26 @@ img.scale-with-grid {
 
 /* #Header
 ================================================== */
-.main-header{padding: 44px 0 14px 0;}
-.logo { font-size: 30px; font-weight:300; text-transform: uppercase;}
+.main-header{padding: 14px 0 14px 0;}
 
-nav.main-nav ul {float: right; margin-top: 7px;}
+.logo { 
+	text-indent: -99999px;
+	height: 77px;
+	background: url(NCV-Logo-Text.png) no-repeat left;
+	background-size: contain;
+	text-transform: uppercase;
+	margin-top: 2px !important;
+	margin-left: -20px !important;
+}
+
+.logomark {
+	text-indent: -99999px;
+	height: 80px;
+	background: url(NCV-Logo-Mark.png) no-repeat left;
+	background-size: contain;
+}
+
+nav.main-nav ul {float: right; margin-top: 30px;}
 nav.main-nav ul li {
 	float: left; 
 	margin: 0 7px;
@@ -150,6 +166,7 @@ nav.main-nav ul li a {
 	font-weight: 900;
 	line-height: 64px;
 	padding: 0;
+	color: #1B325F;
 	margin: 0;
 }
 .home-text-wrapper h2{ 
@@ -292,7 +309,7 @@ nav.main-nav ul li a {
 .work-bucket-header h2 {
 	font-weight: 900;
 	font-size: 26px;
-	color: rgba(35,36,51,1);
+	color: #F26C4F;
 }
 
 .work-pins {
@@ -306,7 +323,7 @@ nav.main-nav ul li a {
 	height: 160px;
 	line-height: 160px;
 	border-radius: 80px;
-	background: rgba(228,174,24,0.7);
+	background: #1B325F;
 	border-right: none !important;
 	text-align: center !important;
 	padding: 0 !important;
@@ -336,7 +353,7 @@ nav.main-nav ul li a {
 	padding: 200px 0 0 0;
 }
 .parallax-content h1{
-	color:#e4ae18;
+	color:#F26C4F;
 	font-size: 42px;
 	font-weight: 900;
 	line-height: 49px;
