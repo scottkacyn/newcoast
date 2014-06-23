@@ -8,15 +8,16 @@
 		<!-- Main Navigation-->
 		<nav class="main-nav">
 			<ul>
-	         	<li><a href="#parallax-1" class="third-color">Work</a></li>
-				<li><a href="#parallax-2" class="third-color">People</a></li> 
-				<li><a href="#parallax-3" class="third-color">Community</a></li>
+	         	<li><a href="#parallax-1">Work</a></li>
+				<li><a href="#parallax-2">Services</a></li> 
+				<li><a href="#parallax-3">About</a></li>
+				<li><a href="#parallax-4">Contact</a></li>
 			</ul>
 		</nav>
 	</div><!-- close navigation -->
 
 	<div class="splash">
-		<h2>We are a digital innovation company located in Chicago, IL.<br>Part technology partner, part angel fund, and part co-working community.</h2>
+		<h2>We are a digital innovation agency located in Chicago, IL.<br>Part technology partner & part co-working community.</h2>
 	</div>
 	
 	<!-- Parallax Section 1 -->
@@ -24,20 +25,54 @@
 		<div class="parallax-banner-1 parallax-background"></div><!-- parallax bg -->
 		<div class="banner-overlay"></div><!-- overlay pattern -->
 		<div class="parallax-content">
-			<h1>Our work</h1>
-			<p>We believe innovation starts by doing. We build products, develop new businesses, and help companies innovate through mobile and responsive web development, design, and consulting services.</p>
+			<h1>Our Work</h1>
+			<p>We believe innovation starts by doing. We build products, develop new businesses, and help companies exceed their technology goals.</p>
 		</div>
 	</div><!-- close parallax banner 1-->
 	<div class="page work">
 		<ul class="thumbnails">
-			<li class="thumbnail secondary"></li>
-			<li class="thumbnail primary"></li>
-			<li class="thumbnail primary"></li>
-			<li class="thumbnail primary"></li>
-			<li class="thumbnail primary"></li>
-			<li class="thumbnail primary"></li>
-			<li class="thumbnail primary"></li>
-			<li class="thumbnail primary"></li>
+			<li class="thumbnail secondary"><%= image_tag "work/ipad-menu.jpg", :alt => "iPad Menu" %>
+				<div class="hover-info">
+					<h3>Valley Lodge Tavern</h3>
+					<h4>Digital Menu, Website, & Branding</h4>
+					<a href="#">Learn More</a>
+				</div>
+			</li>
+			<li class="thumbnail primary"><%= image_tag "work/tapfit.jpg", :alt => "TapFit" %>
+				<div class="hover-info">
+					<h3>TapFit</h3>
+					<h4>Mobile Fitness App</h4>
+					<a href="#">Learn More</a>
+				</div>
+			</li>
+			<li class="thumbnail primary"><%= image_tag "work/ahalogy.jpg", :alt => "Ahalogy SmartStacks" %>
+				<div class="hover-info">
+					<h3>Ahalogy</h3>
+					<h4>UX & Development</h4>
+					<a href="#">Learn More</a>
+				</div>
+			</li>
+			<li class="thumbnail primary"><%= image_tag "work/petcheck.jpg", :alt => "Pet Check Technology" %>
+				<div class="hover-info">
+					<h3>Pet Check</h3>
+					<h4>Mobile Refresh</h4>
+					<a href="#">Learn More</a>
+				</div>
+			</li>
+			<li class="thumbnail primary"><%= image_tag "work/atm-finder.jpg", :alt => "Donde ATM Finder" %>
+				<div class="hover-info">
+					<h3>Donde</h3>
+					<h4>ATM Finder App</h4>
+					<a href="#">Learn More</a>
+				</div>
+			</li>
+			<li class="thumbnail primary"><%= image_tag "work/ch.jpg", :alt => "Certified Humane" %>
+				<div class="hover-info">
+					<h3>Certified Humane</h3>
+					<h4>Mobile Apps</h4>
+					<a href="#">Learn More</a>
+				</div>
+			</li>
 			<div style="clear:both;"></div>
 		</ul>
 	</div>
@@ -47,8 +82,60 @@
 	   <div class="parallax-banner-2 parallax-background"></div><!-- parallax bg -->
 	   <div class="banner-overlay"></div><!-- overlay pattern -->
 	   <div class="parallax-content">
-	      <h1>Our People</h1>
-	      <p>We are a growing network of entrepreneurs, developers, designers, and investors. Our passion is for developing world-class products - we are not an agency, we are an extension of your team.</p>
+	      <h1>Our Services</h1>
+	      <p>We offer our clients a suite of services including native app development, responsive web development, user experience design, and mobile strategy.</p>
+	   </div>
+	</div><!-- close parallax section 3-->
+	<div class="page services">
+		<div class="service">
+			<div class="left"><%= image_tag "work/tapfit-designs.jpg", :alt => "TapFit Before & After" %></div>
+			<div class="right">
+				<h1>User Experience</h1>
+				<p>At New Coast, user experience lives at the core of everything we do. Creating an experience that delights your users is founded on a deep customer empathy.</p>
+				<p>We aim to go beyond customer expectations to deliver groundbreaking experiences that people <i>want</i> to share with their friends and family.</p>
+				<p>Our philosophy is that you can never learn too early or too often from your customers, and to get to that next level of awesomeness, you need to know your customer better than they know themselves.</p>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="service">
+			<div class="left">
+				<h1>App Development</h1>
+				<p>Native and hybrid mobile apps are our fort&eacute;. We have deep iOS and Android expertise in UX/UI design & development.</p>
+				<p>Our apps have been downloaded by thousands of people around the world and have a remarkable 99%+ bug-free rate.</p>
+				<p>We build products that people love. From finding the nearest ATM, to grabbing an awesome workout, to finding humanely-raised product vendors, our apps help people live better, more convenient lives.</p>
+			</div>
+			<div class="right"><%= image_tag "work/atm-map.jpg", :alt => "ATM Finder Map" %></div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="service">
+			<div class="left"><%= image_tag "work/strategy.jpg", :alt => "Strategy" %></div>
+			<div class="right">
+				<h1>Strategy</h1>
+				<p>We have years of experience building, marketing, and scaling products for millions of users.</p>
+				<p>Our team members have worked at Fortune 500 companies, venture-backed businesses, and bootstrapped startups. We know what it takes to turn an idea into a product and make your vision become a reality.</p>
+				<p>We provide consulting services for product implementation, design, growth hacking, and more.</p>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="service">
+			<div class="left">
+				<h1>Web Development</h1>
+				<p>We started building websites in high school, and we have carefully honed our craft in the decade since.</p>
+				<p>We've built everything from social networks to account management platforms to restaurant landing pages, working with clients both big and small.</p>
+				<p>We offer full-service web development including design, front-end, and backend implementation, with an expertise in Ruby on Rails, AngularJS, Javascript, and HTML/CSS.</p>
+			</div>
+			<div class="right"><%= image_tag "work/imac.jpg", :alt => "VLT Website" %></div>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+
+	<!-- Parallax Section 2 -->
+	<div id="parallax-3" class="parallax">
+	   <div class="parallax-banner-3 parallax-background"></div><!-- parallax bg -->
+	   <div class="banner-overlay"></div><!-- overlay pattern -->
+	   <div class="parallax-content">
+	      <h1>About Us</h1>
+	      <p>We are a growing network of entrepreneurs, developers, designers, and investors. Our passion is for developing world-class products.</p>
 	   </div>
 	</div><!-- close parallax section 2-->
 	<div class="page team">
@@ -60,18 +147,63 @@
 			<li class="thumbnail primary">
 				<p>We are founders, programmers, designers, dreamers, and builders. We work closely with a number of awesome entrepreneurs who make up our growing community.</p>
 			</li>
-			<li class="thumbnail small"><%= image_tag "team/scott.jpg", :alt => "Scott Kacyn" %></li>
-			<li class="thumbnail small"><%= image_tag "team/nick.jpg", :alt => "Nick Cromydas" %></li>
-			<li class="thumbnail small"><%= image_tag "team/alex.jpg", :alt => "Alex Ross" %></li>
+			<li class="thumbnail small"><%= image_tag "team/scott.jpg", :alt => "Scott Kacyn" %>
+				<div class="person-info">
+					<h3>Scott Kacyn</h3>
+					<h4>Partner<br>New Coast</h4>
+				</div>
+			</li>
+			<li class="thumbnail small"><%= image_tag "team/nick.jpg", :alt => "Nick Cromydas" %>
+				<div class="person-info">
+					<h3>Nick Cromydas</h3>
+					<h4>Partner<br>New Coast</h4>
+				</div>
+			</li>
+			<li class="thumbnail small"><%= image_tag "team/alex.jpg", :alt => "Alex Ross" %>
+				<div class="person-info">
+					<h3>Alex Ross</h3>
+					<h4>Finance<br>New Coast</h4>
+				</div>
+			</li>
 			<li class="thumbnail small"><%= image_tag "team/7.jpg", :alt => "NCV Logo" %></li>
 			<li class="thumbnail small-horizontal"><%= image_tag "team/2.jpg", :alt => "Couch Area" %></li>
 			<div style="float:left; width:480px;">
-				<li class="thumbnail small"><%= image_tag "team/steve.jpg", :alt => "Steve Corby" %></li>
-				<li class="thumbnail small"><%= image_tag "team/erik.png", :alt => "Erik Nomitch" %></li>
-				<li class="thumbnail small"><%= image_tag "team/zo.jpg", :alt => "Alex Zotov" %></li>
-				<li class="thumbnail small"><%= image_tag "team/tony.jpg", :alt => "Anthony Nicalo" %></li>
-				<li class="thumbnail small"><%= image_tag "team/julian.png", :alt => "Julian Miller" %></li>
-				<li class="thumbnail small"><%= image_tag "team/james.jpg", :alt => "James Dickerson" %></li>
+				<li class="thumbnail small"><%= image_tag "team/steve.jpg", :alt => "Steve Corby" %>
+					<div class="person-info">
+						<h3>Steve Corby</h3>
+						<h4>CEO<br>Specless</h4>
+					</div>
+				</li>
+				<li class="thumbnail small"><%= image_tag "team/erik.png", :alt => "Erik Nomitch" %>
+					<div class="person-info">
+						<h3>Erik Nomitch</h3>
+						<h4>CEO<br>Prelang</h4>
+					</div>
+				</li>
+				<li class="thumbnail small"><%= image_tag "team/zo.jpg", :alt => "Alex Zotov" %>
+					<div class="person-info">
+						<h3>Alex Zotov</h3>
+						<h4>Engineering<br>New Coast</h4>
+					</div>
+				</li>
+				<li class="thumbnail small"><%= image_tag "team/tony.jpg", :alt => "Anthony Nicalo" %>
+					<div class="person-info">
+						<h3>Anthony Nicalo</h3>
+						<h4>CEO<br>Donde</h4>
+					</div>
+				</li>
+				<li class="thumbnail small"><%= image_tag "team/julian.png", :alt => "Julian Miller" %>
+					<div class="person-info">
+						<h3>Julian Miller</h3>
+						<h4>CEO<br>Learnmetrics</h4>
+					</div>
+				</li>
+				<li class="thumbnail small"><%= image_tag "team/james.jpg", :alt => "James Dickerson" %>
+					<div class="person-info">
+						<h3>James Dickerson</h3>
+						<h4>Growth Hacker<br>New Coast</h4>
+					</div>
+				</li>
 			</div>
 			<div style="float:right; width:480px;">
 				<li class="thumbnail tertiary"><%= image_tag "team/6.jpg", :alt => "Nick and Erik" %></li>
@@ -80,72 +212,39 @@
 		</ul>
 	</div>
 
-	<!-- Parallax Section 3 -->
-	<div id="parallax-3" class="parallax">
+		<!-- Parallax Section 2 -->
+	<div id="parallax-4" class="parallax">
 	   <div class="parallax-banner-3 parallax-background"></div><!-- parallax bg -->
 	   <div class="banner-overlay"></div><!-- overlay pattern -->
 	   <div class="parallax-content">
-	      <h1>Our Community</h1>
-	      <p>We have over 3,500 sq ft of co-working space in the heart of River North. Unlimited WiFi, Starbucks coffee, and 24/7 access. If you need a place to build the next big thing, come join us!</p>
+	      <h1>Contact Us</h1>
+	      <p>Want to hire us for your next project? Want to join our awesome team? Maybe you just want to talk shop. Whatever the occasion we'd love to hear from you!</p>
 	   </div>
-	</div><!-- close parallax section 3-->
-	<div class="page community">
-	</div>
-
-	<div class="page">
-		<div class="subtitle">Want to come work with us, hire us for your next project, or just talk about Chicago sports?</div>
-		<a href="mailto:scott@newcoastventures.com" class="btn">Contact Us</a>
+	</div><!-- close parallax section 2-->
+	<div class="page contact">
+		<div class="contact-info">
+			<h4>Chicago Headquarters</h4>
+			<address>
+				<strong>New Coast Ventures, LLC</strong><br>
+				116 W Illinois St. Suite 5E<br>
+				Chicago, IL 60614
+			</address>
+			<br><br>
+			<iframe width="90%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=116%20W%20Illinois%20St%20Suite%205E%2C%20Chicago%2C%20IL%2C%20United%20States&key=AIzaSyCVhZsSyTwWpTs5Z1VK094bRhRXo0MhJno"></iframe>
+		</div>
+		<div class="inquiries">
+			<h4>Business Inquiries</h4>
+			<p>Someone from our team will get back to you within 24 hours</p>
+			<%= form_for @message, :url => send_inquiry_landings_path do |form| %>
+				<%= form.text_field :name, :placeholder => "Name" %>
+				<%= form.text_field :email, :placeholder => "Email" %>
+				<%= form.text_field :phone, :placeholder => "Phone" %>
+				<%= form.text_field :company, :placeholder => "Company" %>
+				<%= form.text_area :comments, :placeholder => "Comments" %>
+				<%= form.submit "SUBMIT", :class => "btn" %>
+			<% end %>
+		</div>
+		<div style="clear:both;"></div>
 	</div><!-- close services header -->
-
-	<!-- Contact Section
-	================================================== -->
-	<div class="contact fullwidth sub-page" id="contact">
-		<strong>Connect with us:</strong> <a href="https://www.facebook.com/newcoastventures">Facebook</a> | <a href="https://twitter.com/NCVentures">Twitter</a><br />
-		<div class="copyright">Copyright &copy; 2014 New Coast Ventures. All rights reserved.</div>
-	</div><!-- close work section -->
-
 </div>
-
-<!-- About Us Section
-================================================== -->
-<!--<div class="container page about-us" id="about">
-	<div class="subtitle">We are a digital innovation company located in Chicago, IL. Part <span class="highlight">technology partner</span>, part <span class="highlight">angel fund</span>, and part <span class="highlight">co-working</span> community. We make things that people love.</div>
-</div> -->
-
-<!-- Portfolio Section
-<div class="container page work" id="work">
-	<ul class="work-bucket-header">
-		<li class="four columns">
-			<h2>Development</h2>
-		</li>
-		<li class="twelve columns">
-			<p>We have been building awesome products since 2009. Our keen eye for design and technical expertise enable us to create beautiful and innovate products for Fortune 500 and startup companies alike.</p>			
-			<ul class="work-pins">
-				<li><a href="#">TapFit</a></li>
-				<li><a href="#">ATM Finder</a></li>
-				<li><a href="#">Certified Humane</a></li>
-				<li><a href="#">iPad Menu</a></li>
-				<li><a href="#">Motlee</a></li>
-				<li><a href="#">Athliance</a></li>
-			</ul>
-		</li>
-	</ul>
-	<ul class="work-bucket-header">
-		<li class="four columns">
-			<h2>Partnerships</h2>
-		</li>
-		<li class="twelve columns">
-			<p>In addition to our in-house development work, New Coast makes small angel investments in companies we believe in.</p>
-			<ul class="work-pins">
-				<li><a href="#">Specless</a></li>
-				<li><a href="#">Donde</a></li>
-				<li><a href="#">Prelang</a></li>
-				<li><a href="#">Learnmetrics</a></li>
-			</ul>
-		</li>
-	</ul>
-</div> close work section -->
-
-<!-- Our Team Section
-================================================== -->
 
