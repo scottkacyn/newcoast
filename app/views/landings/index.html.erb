@@ -1,48 +1,118 @@
-<div class="container main-header"><!-- header container-->
+<div class="container">
 
-	<!-- Site Logo -->
-	<div class="logomark two columns">NCV</div>
-	<div class="logo secondary-color six columns">New Coast Ventures</div>
+	<div class="navigation"><!-- header container-->
+		<!-- Site Logo -->
+		<div class="logomark">NCV</div>
+		<div class="logo">New Coast Ventures</div>
 
-	<!-- Main Navigation-->
-	<nav class="main-nav eight columns">
-		<ul>
-         	<li><a href="#parallax-1" class="third-color">Work</a>//</li>
-			<li><a href="#parallax-2" class="third-color">People</a>//</li> 
-			<li><a href="#parallax-3" class="third-color">Community</a></li>
+		<!-- Main Navigation-->
+		<nav class="main-nav">
+			<ul>
+	         	<li><a href="#parallax-1" class="third-color">Work</a></li>
+				<li><a href="#parallax-2" class="third-color">People</a></li> 
+				<li><a href="#parallax-3" class="third-color">Community</a></li>
+			</ul>
+		</nav>
+	</div><!-- close navigation -->
+
+	<div class="splash">
+		<h2>We are a digital innovation company located in Chicago, IL.<br>Part technology partner, part angel fund, and part co-working community.</h2>
+	</div>
+	
+	<!-- Parallax Section 1 -->
+	<div id="parallax-1" class="parallax">
+		<div class="parallax-banner-1 parallax-background"></div><!-- parallax bg -->
+		<div class="banner-overlay"></div><!-- overlay pattern -->
+		<div class="parallax-content">
+			<h1>Our work</h1>
+			<p>We believe innovation starts by doing. We build products, develop new businesses, and help companies innovate through mobile and responsive web development, design, and consulting services.</p>
+		</div>
+	</div><!-- close parallax banner 1-->
+	<div class="page work">
+		<ul class="thumbnails">
+			<li class="thumbnail secondary"></li>
+			<li class="thumbnail primary"></li>
+			<li class="thumbnail primary"></li>
+			<li class="thumbnail primary"></li>
+			<li class="thumbnail primary"></li>
+			<li class="thumbnail primary"></li>
+			<li class="thumbnail primary"></li>
+			<li class="thumbnail primary"></li>
+			<div style="clear:both;"></div>
 		</ul>
-	</nav>
+	</div>
 
-</div><!-- close header container -->
+	<!-- Parallax Section 2 -->
+	<div id="parallax-2" class="parallax">
+	   <div class="parallax-banner-2 parallax-background"></div><!-- parallax bg -->
+	   <div class="banner-overlay"></div><!-- overlay pattern -->
+	   <div class="parallax-content">
+	      <h1>Our People</h1>
+	      <p>We are a growing network of entrepreneurs, developers, designers, and investors. Our passion is for developing world-class products - we are not an agency, we are an extension of your team.</p>
+	   </div>
+	</div><!-- close parallax section 2-->
+	<div class="page team">
+		<ul class="thumbnails">
+			<li class="thumbnail primary"><%= image_tag "team/4.jpg", :alt => "Nick on Phone" %></li>
+			<li class="thumbnail primary"><%= image_tag "team/5.jpg", :alt => "Kevin" %></li>
+			<li class="thumbnail primary"><%= image_tag "team/3.jpg", :alt => "Erik on Computer" %></li>
+			<li class="thumbnail secondary"><%= image_tag "team/1.jpg", :alt => "Frameri Working" %></li>
+			<li class="thumbnail primary">
+				<p>We are founders, programmers, designers, dreamers, and builders. We work closely with a number of awesome entrepreneurs who make up our growing community.</p>
+			</li>
+			<li class="thumbnail small"><%= image_tag "team/scott.jpg", :alt => "Scott Kacyn" %></li>
+			<li class="thumbnail small"><%= image_tag "team/nick.jpg", :alt => "Nick Cromydas" %></li>
+			<li class="thumbnail small"><%= image_tag "team/alex.jpg", :alt => "Alex Ross" %></li>
+			<li class="thumbnail small"><%= image_tag "team/7.jpg", :alt => "NCV Logo" %></li>
+			<li class="thumbnail small-horizontal"><%= image_tag "team/2.jpg", :alt => "Couch Area" %></li>
+			<div style="float:left; width:480px;">
+				<li class="thumbnail small"><%= image_tag "team/steve.jpg", :alt => "Steve Corby" %></li>
+				<li class="thumbnail small"><%= image_tag "team/erik.png", :alt => "Erik Nomitch" %></li>
+				<li class="thumbnail small"><%= image_tag "team/zo.jpg", :alt => "Alex Zotov" %></li>
+				<li class="thumbnail small"><%= image_tag "team/tony.jpg", :alt => "Anthony Nicalo" %></li>
+				<li class="thumbnail small"><%= image_tag "team/julian.png", :alt => "Julian Miller" %></li>
+				<li class="thumbnail small"><%= image_tag "team/james.jpg", :alt => "James Dickerson" %></li>
+			</div>
+			<div style="float:right; width:480px;">
+				<li class="thumbnail tertiary"><%= image_tag "team/6.jpg", :alt => "Nick and Erik" %></li>
+			</div>
+			<div style="clear:both;"></div>
+		</ul>
+	</div>
 
-<div class="container header-banner"><!-- main header banner -->
-	<div class="home-text-wrapper">
-		<h1>Bring your ideas to life</h1>
-		<h2 class="primary-color">We provide innovation solutions for your product, business, or brand</h2>
-	</div><!-- end home text wrapper -->
-	<div class="home-text-wrapper-border"></div>
-</div><!-- close main header banner -->
+	<!-- Parallax Section 3 -->
+	<div id="parallax-3" class="parallax">
+	   <div class="parallax-banner-3 parallax-background"></div><!-- parallax bg -->
+	   <div class="banner-overlay"></div><!-- overlay pattern -->
+	   <div class="parallax-content">
+	      <h1>Our Community</h1>
+	      <p>We have over 3,500 sq ft of co-working space in the heart of River North. Unlimited WiFi, Starbucks coffee, and 24/7 access. If you need a place to build the next big thing, come join us!</p>
+	   </div>
+	</div><!-- close parallax section 3-->
+	<div class="page community">
+	</div>
 
+	<div class="page">
+		<div class="subtitle">Want to come work with us, hire us for your next project, or just talk about Chicago sports?</div>
+		<a href="mailto:scott@newcoastventures.com" class="btn">Contact Us</a>
+	</div><!-- close services header -->
+
+	<!-- Contact Section
+	================================================== -->
+	<div class="contact fullwidth sub-page" id="contact">
+		<strong>Connect with us:</strong> <a href="https://www.facebook.com/newcoastventures">Facebook</a> | <a href="https://twitter.com/NCVentures">Twitter</a><br />
+		<div class="copyright">Copyright &copy; 2014 New Coast Ventures. All rights reserved.</div>
+	</div><!-- close work section -->
+
+</div>
 
 <!-- About Us Section
 ================================================== -->
-<div class="container page about-us" id="about">
+<!--<div class="container page about-us" id="about">
 	<div class="subtitle">We are a digital innovation company located in Chicago, IL. Part <span class="highlight">technology partner</span>, part <span class="highlight">angel fund</span>, and part <span class="highlight">co-working</span> community. We make things that people love.</div>
-</div><!-- close about us header -->
-
-<!-- Parallax Section 1
-================================================== -->
-<div id="parallax-1" class="parallax">
-	<div class="parallax-banner-1 parallax-background"></div><!-- parallax bg -->
-	<div class="banner-overlay"></div><!-- overlay pattern -->
-	<div class="container parallax-content">
-		<h1>Our work</h1>
-		<p>We believe innovation starts by doing. We build products, develop new businesses, and help companies innovate through mobile and responsive web development, design, and consulting services.</p>
-	</div>
-</div><!-- close parallax banner 1-->
+</div> -->
 
 <!-- Portfolio Section
-================================================== -->
 <div class="container page work" id="work">
 	<ul class="work-bucket-header">
 		<li class="four columns">
@@ -74,83 +144,8 @@
 			</ul>
 		</li>
 	</ul>
-</div><!-- close work section -->
-
-<!-- Parallax Section 2
-================================================== -->
-<div id="parallax-2" class="parallax">
-   <div class="parallax-banner-2 parallax-background"></div><!-- parallax bg -->
-   <div class="banner-overlay"></div><!-- overlay pattern -->
-   <div class="container parallax-content">
-      <h1>Our People</h1>
-      <p>We are a growing network of entrepreneurs, developers, designers, and investors. Our passion is for developing world-class products - we are not an agency, we are an extension of your team.</p>
-   </div>
-</div><!-- close parallax section 2-->
+</div> close work section -->
 
 <!-- Our Team Section
 ================================================== -->
 
-<div class="fullwidth">
-	<div class="container page">
-		<ul class="work-bucket-header">
-			<li class="four columns">
-				<h2>We Are...</h2>
-			</li>
-			<li class="twelve columns">
-				<p>We are founders, programmers, designers, dreamers, and builders. We work closely with a number of awesome entrepreneurs who make up our growing community.</p>
-				<ul class="work-pins">
-					<li><%= image_tag "team/scott.jpg", :alt => "Scott Kacyn", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>Partner<br>New Coast</span></div>
-					</li>
-					<li><%= image_tag "team/nick.jpg", :alt => "Nick Cromydas", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>Partner<br>New Coast</span></div>
-					</li>
-					<li><%= image_tag "team/alex.jpg", :alt => "Alex Ross", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>Partner<br>New Coast</span></div>
-					</li>
-					<li><%= image_tag "team/zo.jpg", :alt => "Alex Zotov", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>Engineering<br>New Coast</span></div>
-					</li>
-					<li><%= image_tag "team/steve.jpg", :alt => "Stephen Corby", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>CEO<br>Specless</span></div>
-					</li>
-					<li><%= image_tag "team/erik.png", :alt => "Erik Nomitch", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>CEO<br>Prelang</span></div>
-					</li>
-					<li><%= image_tag "team/james.jpg", :alt => "James Dickerson", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>Entrepreneur<br>I Will Get You Fans</span></div>
-					</li>
-					<li><%= image_tag "team/tony.jpg", :alt => "Anthony Nicalo", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>CEO<br>Donde</span></div>
-					</li>
-					<li><%= image_tag "team/julian.png", :alt => "Julian Miller", :class => "scale-with-grid" %>
-						<div class="member-bio"><span>CEO<br>Learnmetrics</span></div>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div><!-- close container -->
-</div><!-- close our team fullwidth section -->
-
-<!-- Parallax Section 3
-================================================== -->
-<div id="parallax-3" class="parallax">
-   <div class="parallax-banner-3 parallax-background"></div><!-- parallax bg -->
-   <div class="banner-overlay"></div><!-- overlay pattern -->
-   <div class="container parallax-content">
-      <h1>Our Community</h1>
-      <p>We have over 3,500 sq ft of co-working space in the heart of River North. Unlimited WiFi, Starbucks coffee, and 24/7 access. If you need a place to build the next big thing, come join us!</p>
-   </div>
-</div><!-- close parallax section 3-->
-
-<div class="container page">
-	<div class="subtitle">Want to come work with us, hire us for your next project, or just talk about Chicago sports?</div>
-	<a href="mailto:scott@newcoastventures.com" class="btn">Contact Us</a>
-</div><!-- close services header -->
-
-<!-- Contact Section
-================================================== -->
-<div class="container contact fullwidth sub-page" id="contact">
-	<strong>Connect with us:</strong> <a href="https://www.facebook.com/newcoastventures">Facebook</a> | <a href="https://twitter.com/NCVentures">Twitter</a><br />
-	<div class="copyright">Copyright &copy; 2014 New Coast Ventures. All rights reserved.</div>
-</div><!-- close work section -->
