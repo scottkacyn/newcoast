@@ -2,7 +2,16 @@
 ================================================== */
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		.container {
+			max-width: 100%;
+			width: 100%;
+			overflow: hidden;
+		}
+		.thumbnails {
+			width: 100%;
+		}
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
