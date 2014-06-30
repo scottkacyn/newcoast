@@ -19,19 +19,5 @@ module Newcoast
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-
-    config.action_mailer.smtp_settings = {
-      :address              => "smtp.gmail.com",
-      :port                 => 587,
-      :domain               => "newcoastventures.com",
-      :user_name            => "scott@newcoastventures.com",
-      :password             => "S1lbi91087",
-      :authentication       => :plain,
-      :enable_starttls_auto => true
-    }
-
-    config.action_mailer.default_url_options = {
-      :host => "newcoastventures.com"
-    }
   end
 end
